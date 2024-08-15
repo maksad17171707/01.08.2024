@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0978ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    color: white;
+}
+.container-box{
+    width: 70%;
+    height: 70%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.head-1{
+    text-align: center;
+    position: relative;
+    
+}
+.box-1{
+    
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.box-1-elements-1{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-2{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-3{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-4{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-5{
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+    
+}
+.box-1-elements-6{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-7{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-8{
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-9 {
+    border-right: 1px solid hsl(0, 0%, 5%);
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-10{
+    border-bottom: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-11{
+    grid-column: 2;
+    grid-row: 3;
+    border-right: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-12{
+    grid-column: 3;
+    grid-row: 3;
+    border-right: 1px solid hsl(0, 0%, 5%);
+    position: relative;
+}
+.box-1-elements-13{
+    grid-column: 4;
+    grid-row: 3;
+    border-right: 1px solid hsl(0, 0%, 5%);
+}
+.box-1-elements-14{
+    border-right: 1px solid hsl(0, 0%, 5%);
+}
+.img-1{
+    width: 100%;
+    height: 100%;
+    
+}
+.chekc{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+span{
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.foto{
+    width: 40px;
+    height: 40px;
+}
+.chekc:hover{
+    background-color: rgb(137, 137, 137);
+    transition: 0.6s;
+    
+}
